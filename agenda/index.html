@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agenda</title>
+  <script src="js/modelos/Pessoa.js"></script>
+  <script src="js/visoes/PessoaVisao.js"></script>
+  <script src="js/controladores/PessoaControlador.js"></script>
+</head>
+<body>
+  <button onclick="pessoaControlador.pesquisar()">Pesquisa</button>
+  <span  id="pessoas"/>
+</body>
+<script>
+  let pessoaControlador = new PessoaControlador();
+</script>
+</html>
